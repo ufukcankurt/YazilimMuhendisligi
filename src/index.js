@@ -16,14 +16,14 @@ buttons.map((button) => {
             case "=":
                 // Eval() --> verilen ifadeyi bir JS kodu olarak algılar:
                 try {
-                    if(display.innerText.includes("/0")){
-                        Swal.fire({
-                            icon: 'error',
-                            title: 'Oops...',
-                            text: "0 ile bölme yapılamaz.",
-                        })
-                        break;
-                    }
+                    // if(display.innerText.includes("/0")){
+                    //     Swal.fire({
+                    //         icon: 'error',
+                    //         title: 'Oops...',
+                    //         text: "0 ile bölme yapılamaz.",
+                    //     })
+                    //     break;
+                    // }
                     if (display.innerText === "") {
                         Swal.fire({
                             icon: 'error',

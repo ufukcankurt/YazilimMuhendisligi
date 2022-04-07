@@ -22,7 +22,7 @@ border: 1px solid gray;}
     display: grid;
     border-bottom: 1px solid #999;
     border-left: 1px solid #999;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .buttons > div{
