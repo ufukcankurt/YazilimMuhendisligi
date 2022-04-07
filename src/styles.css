@@ -1,50 +1,61 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    max-width: 400px;
-    margin: 10vh auto 0 auto;
-    box-shadow: 0 0 43px 17px rgba(153, 153, 153, 1);
+#page-title {
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
 }
 
-#display{
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
-    padding: 16px 8px;
-    font-size: 25px;
-border: 1px solid gray;}
-
-.buttons{
-    display: grid;
-    border-bottom: 1px solid #999;
-    border-left: 1px solid #999;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+.container {
+  max-width: 400px;
+  margin: 7vh auto 0 auto;
+  box-shadow: 0 0 43px 17px rgba(153, 153, 153, 1);
 }
 
-.buttons > div{
-    border-top: 1px solid #999;
-    border-right: 1px solid #999;
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+  border: 1px solid gray;
 }
 
-.button{
-    border: .5px solid #999;
-    line-height: 100px;
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
+.buttons {
+  display: grid;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-#equal{
-    background-color: #5555ff;
-    color: white;
+.buttons > div {
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
 }
 
-.button:hover{
-    background-color: #323330;
-    color: white;
-    transition: .3s all ease-in-out;
+.button {
+  border: 0.5px solid #999;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#equal {
+  background-color: #5555ff;
+  color: white;
+}
+
+.button:hover {
+  background-color: #323330;
+  color: white;
+  transition: 0.3s all ease-in-out;
 }
